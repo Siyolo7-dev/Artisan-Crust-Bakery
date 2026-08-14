@@ -21,26 +21,29 @@ Module: WEDE5020<br>
 •	Target Audience: Local Community, foodies, couples hosting downtown weddings, corporate event planners. 
 
 
-<h2>Website Goals and Objectives</h2><br> 
-•	Goals: Online ordering/pickup pre-orders, custom cake inquiry forms and increase local brand awareness. 
-•	Key Performance Indicators (KPIs):
-o	Take inR3,000/month through online pre-order revenue.
-o	Receive 15+ completed custom cake inquires a week. 
-o	Increase local organic website traffic by 30% in 90 days.
-
-<h2>Key Features and Functionality:</h2> 
-1. Online Pre-Order & E-Commerce System Daily Menu & Pre-Order Storefront: A card-based menu layout showcasing sourdough breads and seasonal pastries, integrated via Shopify Buy Button SDK or WooCommerce API.  Time-Slot Pickup Selector: Checkout functionality that lets customers select specific daily time slots for storefront pickup.  Persistent "Order for Pickup" Action Bar: A mobile-optimized navigation bar that provides instant access to the pre-order portal from any page.  Seamless Mobile Checkout: Responsive cart and checkout flow designed for smooth ordering on smartphones.
-2. Custom Cake Inquiry Workflow Structured Inquiry Form: A dedicated workflow to capture over 15 weekly custom cake and celebration inquiries, replacing inefficient Instagram DMs and phone calls.  Image Attachment Uploader: File upload capability allowing customers to attach inspiration photos, sketch samples, or color palettes with their inquiries.  Custom Cakes Gallery: High-resolution image showcase highlighting past custom occasion cakes for weddings, birthdays, and corporate events.
-3. Core Pages & Information Architecture Homepage: Features media-rich hero sections, brand introductions, featured products, and direct Call to Actions (CTAs) for pre-orders and custom inquiries.  Our Story (About Us): Dedicated page covering master baker David Miller's history, company mission, vision statement, and team member profiles.  Contact & Location: Features direct contact details, storefront hours, and interactive Google Maps integration for store directions.
-4. Brand Design & Technical Architecture Visual Identity & Styling: Warm brand aesthetic utilizing Warm Bread Gold (#D4A359), Deep Charcoal (#2C2C2C), and Cream White (#FAF3E0) paired with Playfair Display and Lato typography.  Frontend Tech Stack: Modern web build using HTML5, CSS3, and JavaScript (React / Next.js framework).  Hosting & Domain: Deployed on Vercel or Netlify with standard custom .com domain configuration.
-
+<h2>Website Goals and Objectives</h2><br>
+<ul>
+  <li>Goals: Online ordering/pickup pre-orders, custom cake inquiry forms and increase local brand awareness</li>
+  <li>Key Performance Indicators (KPIs)</li>
+  <li>Take inR3,000/month through online pre-order revenue</li>
+  <li>Receive 15+ completed custom cake inquires a week</li>
+  <li>Increase local organic website traffic by 30% in 90 days</li>
+</ul>
+<h2>Key Features and Functionality:</h2>
+<ul>
+  <li>1.Online Pre-Order & E-Commerce System Daily Menu & Pre-Order Storefront: A card-based menu layout showcasing sourdough breads and seasonal pastries, integrated via Shopify Buy Button SDK or WooCommerce API.  Time-Slot Pickup Selector: Checkout functionality that lets customers select specific daily time slots for storefront pickup.  Persistent "Order for Pickup" Action Bar: A mobile-optimized navigation bar that provides instant access to the pre-order portal from any page.  Seamless Mobile Checkout: Responsive cart and checkout flow designed for smooth ordering on smartphones</li>
+  <li>2.Custom Cake Inquiry Workflow Structured Inquiry Form: A dedicated workflow to capture over 15 weekly custom cake and celebration inquiries, replacing inefficient Instagram DMs and phone calls.  Image Attachment Uploader: File upload capability allowing customers to attach inspiration photos, sketch samples, or color palettes with their inquiries.  Custom Cakes Gallery: High-resolution image showcase highlighting past custom occasion cakes for weddings, birthdays, and corporate events</li>
+  <li>3.Core Pages & Information Architecture Homepage: Features media-rich hero sections, brand introductions, featured products, and direct Call to Actions (CTAs) for pre-orders and custom inquiries.  Our Story (About Us): Dedicated page covering master baker David Miller's history, company mission, vision statement, and team member profiles.  Contact & Location: Features direct contact details, storefront hours, and interactive Google Maps integration for store directions</li>
+  <li>4. Brand Design & Technical Architecture Visual Identity & Styling: Warm brand aesthetic utilizing Warm Bread Gold (#D4A359), Deep Charcoal (#2C2C2C), and Cream White (#FAF3E0) paired with Playfair Display and Lato typography.  Frontend Tech Stack: Modern web build using HTML5, CSS3, and JavaScript (React / Next.js framework).  Hosting & Domain: Deployed on Vercel or Netlify with standard custom .com domain configuration</li>
+</ul>
 <h2>Timelines and Milestones</h2>
-•	Week 1: Wireframing, designing product catalogue & receiving hi-res photos.
-•	Weeks 2–3: Designing frontend, responsiveness and styling.
-•	Weeks 4–5: Adding shopping cart logic & pickup scheduler feature.
-•	Week 6: UAT and training for staff order dashboard.
-•	Week 7: Going live and submitting to search engines for local SEO.
-
+<ul>
+  <li>Week 1: Wireframing, designing product catalogue & receiving hi-res photos</li>
+  <li>Weeks 2–3: Designing frontend, responsiveness and styling</li>
+  <li>Weeks 4–5: Adding shopping cart logic & pickup scheduler feature</li>
+  <li>Week 6: UAT and training for staff order dashboard</li>
+  <li>Week 7: Going live and submitting to search engines for local SEO</li>
+</ul>
 <h2>Part one details:</h2><br>
 <ul>
   <li>Private GitHub</li>
