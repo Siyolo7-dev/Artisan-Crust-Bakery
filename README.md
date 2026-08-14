@@ -1,78 +1,65 @@
 # Artisan-Crust-Bakery
 Artisan Crust Bakery Website Development Project
-Homepage
-Brief Introduction:  
-Welcome to Artisan Crust Bakery, founded in 2021 by master baker David Miller. We bring authentic sourdough bread and seasonal pastries to our community, crafted with care and tradition.
 
-Core Value Statement:  
-We believe in authentic, wholesome baked goods made with traditional fermentation methods and locally sourced organic ingredients.
+<h1>Project title<br></h1> Website creation for Artisan Crust Bakery<br><br> 
 
-Primary CTA:  
-Order for Pickup (persistent button linking to daily pre-order store)
+Student Information<br>
 
-Secondary CTA:  
-Request a Custom Cake (button linking to custom order inquiry form)
+Student Name: Siyolo Botile<br>
+Student Number: St10482267<br>
+Course: Diploma in IT Management<br>
+Institution: Rosebank International Braamfontein<br>
+Module: WEDE5020<br>
 
-About Us
-Organization History:  
-In 2021, master baker David Miller opened Artisan Crust Bakery as a neighborhood storefront, driven by a passion for sourdough and community-centered baking.
+<h1>Project: Website Development -Part 1<br></h1>
 
-Mission Statement:  
-To craft authentic, wholesome baked goods using traditional fermentation methods and locally sourced organic ingredients.
-
-Vision Statement:  
-To be the region’s leading specialty bakery and custom celebration cake maker.
-
-Team Members:
-
-David Miller – Master Baker & Founder
-Elena Rostova- Lead Pastry Chef & Custom Cake Designer
-Marcus Vance- Storefront & Operations Manager
-Sarah Jenkins- Assistant Artisan Baker
-
-Artisan Baking Team – Skilled bakers dedicated to quality and creativity
-
-Services & Products
-Sourdough Bread:  
-Signature sourdough loaves, fermented naturally for rich flavor and texture.
-
-Seasonal Pastries:  
-A rotating catalog of pastries inspired by the seasons—croissants, fruit tarts, and more.
-
-Custom Occasion Cakes:  
-Bespoke cakes designed for weddings, birthdays, corporate events, and neighborhood celebrations.
-
-Ordering Features:  
-Interactive product catalog with cart functionality and time-slot selection for daily pickups.
-
-Enquiry Page
-Customer Order Form:
-Full Name
-Email Address
-Physical Home Address
-Phone Number
+<h2>Project Overview:</h2><br>
+•	Name: Artisan Crust Bakery
+•	History: Artisan Crust is a family-owned bakery established in 2021 by head baker David Miller. We have a physical shop front where we sell sour dough bread, seasonal treats, and custom order cakes. 
+•	Mission Statement: Bake genuine, nourishing bread and treats using old fashion fermentation techniques with locally sourced organic ingredients. 
+•	Vision Statement: To be the premier destination for specialty baked goods and celebration cakes. 
+•	Target Audience: Local Community, foodies, couples hosting downtown weddings, corporate event planners. 
 
 
-Image Upload Functionality:  
-Customers can attach sample photos or design inspirations.
+<h2>Website Goals and Objectives</h2><br> 
+•	Goals: Online ordering/pickup pre-orders, custom cake inquiry forms and increase local brand awareness. 
+•	Key Performance Indicators (KPIs):
+o	Take inR3,000/month through online pre-order revenue.
+o	Receive 15+ completed custom cake inquires a week. 
+o	Increase local organic website traffic by 30% in 90 days.
 
-Event Details:  
-Fields for event date, guest count, and catering requirements.
+<h2>Key Features and Functionality:</h2> 
+1. Online Pre-Order & E-Commerce System Daily Menu & Pre-Order Storefront: A card-based menu layout showcasing sourdough breads and seasonal pastries, integrated via Shopify Buy Button SDK or WooCommerce API.  Time-Slot Pickup Selector: Checkout functionality that lets customers select specific daily time slots for storefront pickup.  Persistent "Order for Pickup" Action Bar: A mobile-optimized navigation bar that provides instant access to the pre-order portal from any page.  Seamless Mobile Checkout: Responsive cart and checkout flow designed for smooth ordering on smartphones.
+2. Custom Cake Inquiry Workflow Structured Inquiry Form: A dedicated workflow to capture over 15 weekly custom cake and celebration inquiries, replacing inefficient Instagram DMs and phone calls.  Image Attachment Uploader: File upload capability allowing customers to attach inspiration photos, sketch samples, or color palettes with their inquiries.  Custom Cakes Gallery: High-resolution image showcase highlighting past custom occasion cakes for weddings, birthdays, and corporate events.
+3. Core Pages & Information Architecture Homepage: Features media-rich hero sections, brand introductions, featured products, and direct Call to Actions (CTAs) for pre-orders and custom inquiries.  Our Story (About Us): Dedicated page covering master baker David Miller's history, company mission, vision statement, and team member profiles.  Contact & Location: Features direct contact details, storefront hours, and interactive Google Maps integration for store directions.
+4. Brand Design & Technical Architecture Visual Identity & Styling: Warm brand aesthetic utilizing Warm Bread Gold (#D4A359), Deep Charcoal (#2C2C2C), and Cream White (#FAF3E0) paired with Playfair Display and Lato typography.  Frontend Tech Stack: Modern web build using HTML5, CSS3, and JavaScript (React / Next.js framework).  Hosting & Domain: Deployed on Vercel or Netlify with standard custom .com domain configuration.
 
-Workflow Explanation
-Pickup Schedules
-Custom Cake estimates
-Regular Cake estimates
+<h2>Timelines and Milestones</h2>
+•	Week 1: Wireframing, designing product catalogue & receiving hi-res photos.
+•	Weeks 2–3: Designing frontend, responsiveness and styling.
+•	Weeks 4–5: Adding shopping cart logic & pickup scheduler feature.
+•	Week 6: UAT and training for staff order dashboard.
+•	Week 7: Going live and submitting to search engines for local SEO.
 
-Contact Page
-Contact Information:
+<h2>Part one details:</h2><br>
+<ul>
+  <li>Private GitHub</li>
+  <li>Wireframes for all</li>
+  <li>Visual for setup</li>
+  <li>README file in an academic file</li>
+</ul>
+<h2>Sitemap:</h2><br>
 
-Email: info@artisancrustbakery.com
 
-Store Hours: Mon–Sat, 8 AM – 6 PM
+<h2>Changelog</h2><br>
+August 14: Changed README file on GitHub<br>
 
-Map Integration:  
-Embedded Google Maps for easy directions to the storefront.
+<h2>References</h2>
+Digidop, 2025. Best Typography. [Online] Available at: < 20 Best Fonts for Modern and Impactful Websites in 2026 > [Accessed 10 August 2026].
+Hook Agency, 2025. Colour Scheme for a Website. [Online] Available at: < 50 Beautiful Website Colour Schemes & CSS Hex Codes (2026) > [Accessed 10 August 2026].
+Wix, 2026. Best Layout and Design. [Online] Available at: < 10 Best Website Layout Ideas to Get You Started > [Accessed 10 August 2026]. 
 
-Contact Form:  
-General form for feedback, inquiries, and support.
+
+
+
+
