@@ -52,8 +52,8 @@ Module: WEDE5020<br>
   <li>README file in an academic file</li>
 </ul>
 <h2>Sitemap:</h2><br>
-
-
+<img width="1264" height="843" alt="Gemini_Generated_Image_ktdvn4ktdvn4ktdv" src="https://github.com/user-attachments/assets/62010da1-2da3-48bc-8bf4-3fdde2899fbe" />
+"
 <h2>Changelog</h2><br>
 August 14: Changed README file on GitHub<br>
 
