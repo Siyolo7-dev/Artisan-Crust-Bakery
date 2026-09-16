@@ -65,7 +65,7 @@ August 14: Changed README file on GitHub<br>
   <li>Gallery</li>
   <li>Our Story</li>
 </ul>
-<h2>The Old Pages/h2>
+<h2>The Old Pages</h2>
 <p>The Old Pages Were</p>
 <ul>
   <li>Homepage</li>
