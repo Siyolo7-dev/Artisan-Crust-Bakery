@@ -57,6 +57,24 @@ Module: WEDE5020<br>
 <h2>Changelog</h2><br>
 August 14: Changed README file on GitHub<br>
 
+<h2>Part Two Details</h2><br>
+<ul>
+  <li>Added New Pages</li>
+  <li>Menu</li>
+  <li>Order</li>
+  <li>Gallery</li>
+  <li>Our Story</li>
+</ul>
+<h2>The Old Pages/h2>
+<p>The Old Pages Were</p>
+<ul>
+  <li>Homepage</li>
+  <li>About Us</li>
+  <li>Enquiry</li>
+  <li>Contact Us</li>
+  <li>Services</li>
+</ul>
+
 <h2>References</h2>
 Digidop, 2025. Best Typography. [Online] Available at: < 20 Best Fonts for Modern and Impactful Websites in 2026 > [Accessed 10 August 2026].
 Hook Agency, 2025. Colour Scheme for a Website. [Online] Available at: < 50 Beautiful Website Colour Schemes & CSS Hex Codes (2026) > [Accessed 10 August 2026].
