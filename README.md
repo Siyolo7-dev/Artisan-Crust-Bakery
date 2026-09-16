@@ -1,4 +1,4 @@
-# Artisan-Crust-Bakery
+#Crust-Bakery
 Artisan Crust Bakery Website Development Project
 
 <h1>Project title<br></h1> Website creation for Artisan Crust Bakery<br><br> 
