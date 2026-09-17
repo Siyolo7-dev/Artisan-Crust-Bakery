@@ -126,6 +126,38 @@ Builder Section
 Classes .step, .options, .option introduced for cake builder steps.
 This enables flexbox/grid styling in CSS instead of relying on inline formatting.
 
+<h1>General Changes Made To The Checkout Page</h1>
+Good structure: clear separation of order summary, delivery options, unique code, and footer.
+Consistent use of classes (.checkout-container, .order-summary, .order-item, .delivery-options, .order-code, .confirm-btn) makes styling reusable.
+
+<h2>HTML → CSS Changes</h2>
+Header
+Inline background-color: grey; and color: white; should be moved into style.css.
+Suggest creating a .site-header class with background and text color rules.
+
+<h2>Banner</h2>
+Inline background-image moved into CSS via .banner-checkout.
+This allows different banners (home, menu, checkout) to share common styling while swapping background images in CSS.
+Text Colors
+Inline style="color: white;" on headings replaced with CSS rules (.banner h1, .banner h2).
+Cleaner and easier to adjust globally.
+
+<h2>Order Summary</h2>
+order-item and .totals classes introduced for layout.
+Flexbox/grid styling in CSS replaces inline formatting.
+
+<h2>Buttons</h2>
+Confirm-btn styled in CSS for consistent look and hover states.
+Inline styles removed.
+
+<h2>Footer</h2>
+Consolidated duplicate <footer> tags.
+Styles for .footer, .footer-container, .footer-column now live in CSS, ensuring consistency across pages.
+
+<h2>Accessibility</h2>
+Alt text improved (alt="Chocolate Cake", alt="Cupcakes").
+Consider adding :hover and :focus states in CSS for buttons and links to improve usability
+
 <h2>Accessibility</h2>
 Alt text improved (alt="Vanilla sponge cake", alt="Chocolate sponge cake").
 Consider adding :hover and :focus states in CSS for buttons and links to improve usability.
