@@ -362,7 +362,42 @@ Styles for .footer, .footer-container, .footer-column should be handled in CSS.
 
 <h2>Accessibility</h2>
 Alt text present, but some are too generic (alt="food", alt="history"). Replace with descriptive alt text like alt="Jamie Tucker baking low-carb pastries".
-Ensure team images have descriptive alt text (e.g., alt="Nokwanda smiling behind the coffee counter").
+Ensure team images have descriptive alt text (e.g., alt="Nokwanda smiling behind the coffee counter").<br>
+
+<h1>Review Comments on Shop Page Refactor</h1>
+<h2>General</h2>
+Strong layout: clear cake categories (All Cakes, Classic Cakes, Celebration Cakes, Fun Size Cakes) with text and image pairing.
+Good use of semantic grouping with .cake-category, .cake-text, and .cake-image.
+
+<h1>HTML → CSS Changes</h1>
+<h2>Header</h2>
+Inline background-color: grey; and color: white; should be moved into style.css.
+Suggest creating a .site-header class with background and text color rules.
+
+<h2>Banner</h2>
+Inline background-image moved into CSS via .banner-shop.
+This allows different banners (home, menu, shop) to share common styling while swapping background images in CSS.
+
+<h2>Category Sections</h2>
+Inline style="background-color: #40e0d0;", #e75480, #4CAF50, #FFD54F should be moved into CSS classes (.turquoise, .pink, .green, .yellow).
+This keeps HTML clean and makes color themes reusable.
+
+<h2>Cake Text</h2>
+Inline formatting removed; CSS should handle background colors, padding, and typography.
+lead-time class introduced for styling lead time notes consistently.
+
+<h2>Images</h2>
+Cake-image img should be styled in CSS for sizing and responsiveness.
+Inline attributes removed in favor of CSS rules.
+
+<h2>Footer</h2>
+Duplicate <footer> tags present. Consolidate into one <footer> block.
+Styles for .footer, .footer-container, .footer-column should be handled in CSS.
+
+<h2>Accessibility</h2>
+Alt text is descriptive (alt="Slice of chocolate cake with frosting and macarons").
+Ensure consistent descriptive alt text across all product images.
+Add hover/focus states for category sections and buttons in CSS.
 
 <h2>References</h2>
 Digidop, 2025. Best Typography. [Online] Available at: < 20 Best Fonts for Modern and Impactful Websites in 2026 > [Accessed 10 August 2026].
