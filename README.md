@@ -331,7 +331,38 @@ Styles for .footer, .footer-container, .footer-column should be handled in CSS.
 <h2>Accessibility</h2>
 Labels correctly linked to inputs via for attributes.
 Add aria-label or aria-describedby for optional fields (like flavour, size) to improve clarity.
-Ensure buttons (.send-btn, .quote-btn) have hover/focus states in CSS
+Ensure buttons (.send-btn, .quote-btn) have hover/focus states in CSS<br>
+
+<h1>Review Comments on Our Story Page Refactor</h1>
+<h2>General</h2><br>
+Strong narrative structure: three main story sections (Epic Journey, Low‑Carb, Local History) plus a team showcase.
+Good use of semantic grouping with .team-section and .team-grid.
+
+<h1>HTML → CSS Changes</h1>
+<h2>Header</h2>
+Inline background-color: grey; and color: white; should be moved into style.css.
+Suggest creating a .site-header class with background and text color rules.
+
+<h2>Banner</h2>
+Inline background-image moved into CSS via .banner-story.
+This allows different banners (home, menu, story) to share common styling while swapping background images in CSS.
+
+<h2>Story Sections</h2>
+Currently using nested <p> tags (invalid HTML). Replace with <div> or <span> for inner text alignment.
+Inline style="text-align: center;" should be moved into CSS (.story-text { text-align: center; }).
+
+<h2>Team Section</h2>
+team-grid and .team-card introduced for layout.
+CSS should handle spacing, alignment, and responsive design (grid/flexbox).
+Inline formatting removed.
+
+<h2>Footer</h2>
+Duplicate <footer> tags present. Consolidate into one <footer> block.
+Styles for .footer, .footer-container, .footer-column should be handled in CSS.
+
+<h2>Accessibility</h2>
+Alt text present, but some are too generic (alt="food", alt="history"). Replace with descriptive alt text like alt="Jamie Tucker baking low-carb pastries".
+Ensure team images have descriptive alt text (e.g., alt="Nokwanda smiling behind the coffee counter").
 
 <h2>References</h2>
 Digidop, 2025. Best Typography. [Online] Available at: < 20 Best Fonts for Modern and Impactful Websites in 2026 > [Accessed 10 August 2026].
