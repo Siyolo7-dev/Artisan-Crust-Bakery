@@ -240,7 +240,7 @@ Alt text not needed for iframe, but consider adding title="CRUST Bakery Location
 Add aria-label to the “GET A QUOTE” button for clarity.
 
 <h1>Review Comments on Gallery Page Refactor</h1><br>
-<h2>>General</h2
+<h2>General</h2
 Clear and simple structure: header, gallery images, footer, and chat box.
 Good use of semantic classes (.footer, .footer-container, .footer-column)<br>
 
@@ -265,6 +265,39 @@ Styles for .footer, .footer-container, .footer-column should be handled in CSS.
 <h2>Accessibility</h2>
 Alt text is too generic (alt="food"). Replace with descriptive alt text like alt="Custom decorated cake" or alt="Shark themed cake".
 Improves SEO and accessibility.
+
+<h1>Review Comments on Menu Page Refactor</h1>
+<h2>General</h2>
+Strong structure: clear categories (Cakes & Tarts, Biscuits & Bites, Savoury & Condiments), product grids, and consistent use of .product-card.
+Good semantic separation with <section>, <header>, and .category.
+
+<h1>HTML → CSS Changes</h1>
+<h2>Header</h2>
+Inline background-color: grey; and color: white; should be moved into style.css.
+Suggest creating a .site-header class with background and text color rules.
+
+<h2>Banner</h2>
+Inline background-image moved into CSS via .banner-menu.
+This allows different banners (home, menu, checkout) to share common styling while swapping background images in CSS.
+
+<h2>Product Grid</h2>
+Product-grid and .product-card classes introduced for layout and styling.
+Inline formatting removed; CSS handles spacing, hover effects, and responsiveness.
+
+<h2>Buttons</h2>
+Cart-btn styled in CSS for consistent look and hover states.
+Inline styles added.
+
+<h2>Category Sections</h2>
+Each category (Cakes & Tarts, Biscuits & Bites, Savoury & Condiments) uses .category for styling.
+Breadcrumb and sorting text should be styled via CSS instead of inline.
+
+<h2>Footer</h2>
+Footer will be included in this file. 
+
+<h2>Accessibility</h2>
+Alt text present, but some are too generic (alt="food"). Replace with descriptive alt text like alt="Hummingbird cake with cream cheese frosting".
+Add aria-label to “Add to Cart” buttons for clarity.
 
 <h2>References</h2>
 Digidop, 2025. Best Typography. [Online] Available at: < 20 Best Fonts for Modern and Impactful Websites in 2026 > [Accessed 10 August 2026].
