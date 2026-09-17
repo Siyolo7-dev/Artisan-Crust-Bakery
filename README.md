@@ -162,6 +162,48 @@ Consider adding :hover and :focus states in CSS for buttons and links to improve
 Alt text improved (alt="Vanilla sponge cake", alt="Chocolate sponge cake").
 Consider adding :hover and :focus states in CSS for buttons and links to improve usability.
 
+<h1>Review Comments on Cart Page Refactor</h1><br>
+<h1>General</h1>
+Strong structure: clear cart header, items, coupon section, summary, recommended products, and footer.
+Good use of semantic classes (.cart-container, .cart-item, .cart-summary, .recommended, .recommend-grid).
+
+<h1>HTML → CSS Changes</h1><br>
+<h1>Header</h1>
+Inline background-color: grey; and color: white; should be moved into style.css.
+Suggest creating a .site-header class with background and text color rules.
+
+<h1>Banner</h1>
+Inline background-image moved into CSS via .banner-cart.
+This allows different banners (home, menu, cart) to share common styling while swapping background images in CSS.
+
+<h1>Cart Items</h1>
+Cart-item, .item-details, .item-price, .remove-btn introduced for layout and styling.
+Flexbox/grid styling in CSS replaces inline formatting.
+
+<h1>Quantity Controls</h1>
+Buttons and input styled via .quantity button and .quantity input in CSS.
+Inline styles added. 
+
+<h1>Coupon Section</h1>
+Coupon-section class added for styling input and button consistently.
+Inline formatting replaced with CSS rules.
+
+<h1>Cart Summary</h1>
+Cart-summary styled in CSS for alignment and emphasis.
+Checkout button (.checkout-btn) styled with hover states.
+
+<h1>Recommended Products</h1>
+Recommend-grid and .recommend-item classes introduced for product suggestions.
+CSS grid/flexbox used for layout instead of inline formatting.
+
+<h1>Footer</h1>
+Consolidated duplicate <footer> tags.
+Styles for .footer, .footer-container, .footer-column now live in CSS, ensuring consistency across pages.
+
+<h1>Accessibility</h1>
+Alt text improved (alt="Chocolate Cake", alt="Cupcakes", alt="Brownies").
+Consider adding :hover and :focus states in CSS for buttons and links to improve usability.
+
 <h2>References</h2>
 Digidop, 2025. Best Typography. [Online] Available at: < 20 Best Fonts for Modern and Impactful Websites in 2026 > [Accessed 10 August 2026].
 Hook Agency, 2025. Colour Scheme for a Website. [Online] Available at: < 50 Beautiful Website Colour Schemes & CSS Hex Codes (2026) > [Accessed 10 August 2026].
