@@ -89,7 +89,7 @@ Renamed files with spaces (Build A Cake .html, Checkout .html) → Build-A-Cake.
 
 <h2>Styling</h2>
 
-Moved repeated inline styles (color: white;, background-color: gray;, background-image) into CSS/style.css
+Added inline styles (color: white; background-color: gray; background-image) into CSS/style.css
 
 Created reusable banner classes (.banner-home, .banner-menu) for background images
 
@@ -101,6 +101,34 @@ Added aria-label="Search" to search box for screen reader support
 
 <h2>Navigation</h2>
 Wrapped navigation links in <nav> with <ul> for semantic clarity
+
+<h1>General Changes to the Build A Cake Page</h1>
+
+Good move shifting inline styles into style.css. This improves maintainability and keeps HTML clean.
+Consistent use of classes (.banner, .footer, .builder, .step, .option) makes styling reusable and scalable.
+
+<h1>Specific Changes</h1>
+<h2>Header</h2>
+Inline background-color: grey; and color: white; were moved into CSS.
+Suggest creating a .site-header class with background and text color rules. This avoids repeating inline styles across pages.
+
+<h2>Banner</h2>
+Inline background-image moved into CSS classes like .banner-build.
+This allows different banners (home, menu, build) to share common styling while swapping background images in CSS.
+Text Colors
+Inline style="color: white;" on headings replaced with CSS rules (.banner h1, .banner h2).
+Cleaner and easier to adjust globally.
+
+<h2>Footer</h2>
+Consolidated duplicate <footer> tags.
+Styles for .footer, .footer-container, .footer-column now live in CSS, making layout consistent across pages.
+Builder Section
+Classes .step, .options, .option introduced for cake builder steps.
+This enables flexbox/grid styling in CSS instead of relying on inline formatting.
+
+<h2>Accessibility</h2>
+Alt text improved (alt="Vanilla sponge cake", alt="Chocolate sponge cake").
+Consider adding :hover and :focus states in CSS for buttons and links to improve usability.
 
 <h2>References</h2>
 Digidop, 2025. Best Typography. [Online] Available at: < 20 Best Fonts for Modern and Impactful Websites in 2026 > [Accessed 10 August 2026].
