@@ -130,8 +130,8 @@ This enables flexbox/grid styling in CSS instead of relying on inline formatting
 Good structure: clear separation of order summary, delivery options, unique code, and footer.
 Consistent use of classes (.checkout-container, .order-summary, .order-item, .delivery-options, .order-code, .confirm-btn) makes styling reusable.
 
-<h2>HTML → CSS Changes</h2>
-Header
+<h1>HTML → CSS Changes</h1>
+<h2>>Header</h2>
 Inline background-color: grey; and color: white; should be moved into style.css.
 Suggest creating a .site-header class with background and text color rules.
 
@@ -163,46 +163,79 @@ Alt text improved (alt="Vanilla sponge cake", alt="Chocolate sponge cake").
 Consider adding :hover and :focus states in CSS for buttons and links to improve usability.
 
 <h1>Review Comments on Cart Page Refactor</h1><br>
-<h1>General</h1>
+<h2>General</h2>
 Strong structure: clear cart header, items, coupon section, summary, recommended products, and footer.
 Good use of semantic classes (.cart-container, .cart-item, .cart-summary, .recommended, .recommend-grid).
 
 <h1>HTML → CSS Changes</h1><br>
-<h1>Header</h1>
+<h2>Header</h2>
 Inline background-color: grey; and color: white; should be moved into style.css.
 Suggest creating a .site-header class with background and text color rules.
 
-<h1>Banner</h1>
+<h2>Banner</h2>
 Inline background-image moved into CSS via .banner-cart.
 This allows different banners (home, menu, cart) to share common styling while swapping background images in CSS.
 
-<h1>Cart Items</h1>
+<h2>Cart Items</h2>
 Cart-item, .item-details, .item-price, .remove-btn introduced for layout and styling.
 Flexbox/grid styling in CSS replaces inline formatting.
 
-<h1>Quantity Controls</h1>
+<h2>Quantity Controls</h2>
 Buttons and input styled via .quantity button and .quantity input in CSS.
 Inline styles added. 
 
-<h1>Coupon Section</h1>
+<h2>Coupon Section</h2>
 Coupon-section class added for styling input and button consistently.
 Inline formatting replaced with CSS rules.
 
-<h1>Cart Summary</h1>
+<h2>Cart Summary</h2>
 Cart-summary styled in CSS for alignment and emphasis.
 Checkout button (.checkout-btn) styled with hover states.
 
-<h1>Recommended Products</h1>
+<h2>Recommended Products</h2>
 Recommend-grid and .recommend-item classes introduced for product suggestions.
 CSS grid/flexbox used for layout instead of inline formatting.
 
-<h1>Footer</h1>
+<h2>Footer</h2>
 Consolidated duplicate <footer> tags.
 Styles for .footer, .footer-container, .footer-column now live in CSS, ensuring consistency across pages.
 
-<h1>Accessibility</h1>
+<h2>Accessibility</h2>
 Alt text improved (alt="Chocolate Cake", alt="Cupcakes", alt="Brownies").
 Consider adding :hover and :focus states in CSS for buttons and links to improve usability.
+
+<h1>Review Comments on Contact Us Page Refactor</h1><br>
+<h2>General</h2>
+Strong structure: clear contact info, CTA, embedded map, chat box, and footer.
+Good use of semantic classes (.contact-container, .contact-info, .contact-cta, .map-container).
+
+<h1>HTML → CSS Changes</h1><br>
+<h2>Header</h2>
+Inline background-color: grey; and color: white; should be moved into style.css.
+Suggest creating a .site-header class with background and text color rules.
+
+<h2>Banner</h2>
+Inline background-image moved into CSS via .banner-contact.
+This allows different banners (home, menu, contact) to share common styling while swapping background images in CSS.
+
+<h2>Contact Info</h2>
+Contact-info styled in CSS for spacing, typography, and alignment.
+Inline formatting removed.
+CTA Section
+contact-cta and .quote-btn styled in CSS for consistent button design.
+Inline styles replaced with reusable CSS rules.
+
+<h2>Map</h2>
+Inline style="border:0;" on <iframe> should be moved into CSS (.map-container iframe { border: 0; }).
+Width and height can be controlled via CSS for responsiveness.
+
+<h2>Footer</h2>
+Consolidated duplicate <footer> tags.
+Styles for .footer, .footer-container, .footer-column now live in CSS, ensuring consistency across pages.
+
+<h2>Accessibility</h2>
+Alt text not needed for iframe, but consider adding title="CRUST Bakery Location" for screen readers.
+Add aria-label to the “GET A QUOTE” button for clarity.
 
 <h2>References</h2>
 Digidop, 2025. Best Typography. [Online] Available at: < 20 Best Fonts for Modern and Impactful Websites in 2026 > [Accessed 10 August 2026].
