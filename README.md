@@ -76,19 +76,18 @@ August 14: Changed README file on GitHub<br>
 </ul>
 
 <h1>Changes Made</h1>
-<h2>HTML Cleanup for the Homepage</h2> 
-
-Removed invalid nested <p> tags
-
-Consolidated duplicate <footer> sections into one
-
-Updated heading hierarchy (single <h1>, proper <h2>/<h3> for subsections)
+<h2>HTML Cleanup for the Homepage</h2>
+<ul>
+  <li>Removed invalid nested <p> tags</li>
+  <li>Consolidated duplicate <footer> sections into one</li>
+  <li>Updated heading hierarchy (single <h1>, proper <h2>/<h3> for subsections)</li>
+</ul>
 
 <h2>File Naming</h2>
 
 Renamed files with spaces (Build A Cake .html, Checkout .html) → Build-A-Cake.html, Checkout.html
 
-<h2Styling</h2>
+<h2>Styling</h2>
 
 Moved repeated inline styles (color: white;, background-color: gray;, background-image) into CSS/style.css
 
