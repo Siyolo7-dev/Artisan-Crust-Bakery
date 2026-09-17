@@ -57,6 +57,8 @@ Module: WEDE5020<br>
 <h2>Changelog</h2><br>
 August 14: Changed README file on GitHub<br>
 
+<h1>Project: Website Development -Part 2<br></h1>
+
 <h2>Part Two Details</h2><br>
 <ul>
   <li>Added New Pages</li>
