@@ -299,6 +299,40 @@ Footer will be included in this file.
 Alt text present, but some are too generic (alt="food"). Replace with descriptive alt text like alt="Hummingbird cake with cream cheese frosting".
 Add aria-label to “Add to Cart” buttons for clarity.
 
+<h1>Review Comments on Orders Page Refactor</h1>
+<h2>General</h2>
+Strong structure: banner, order instructions, price list buttons, order form, footer, and chat box.
+Good use of form elements (<input>, <textarea>, <button>), making the page functional.
+
+<h1>HTML → CSS Changes</h1>
+<h2>Header</h2>
+Inline background-color: grey; and color: white; should be moved into style.css.
+Suggest creating a .site-header class with background and text color rules.
+
+<h2>Banner</h2>
+Inline background-image moved into CSS via .banner-orders.
+This allows different banners (home, menu, orders) to share common styling while swapping background images in CSS.
+
+<h2>Buttons</h2>
+Inline <button><h2 style="color: white;">Get a Quote</h2></button> is invalid HTML (heading inside button).
+Replace with <button class="quote-btn">Get a Quote</button> and style via CSS.
+
+<h2>Form</h2>
+Form inputs (text, tel, email, date, textarea) should be styled via .form-input, .form-label, .form-textarea classes in CSS.
+Inline placeholders are fine, but spacing and alignment should be handled in CSS.
+File Input
+file-input class introduced for styling file upload.
+Inline formatting removed.
+
+<h2>Footer</h2>
+Duplicate <footer> tags present. Consolidate into one <footer> block.
+Styles for .footer, .footer-container, .footer-column should be handled in CSS.
+
+<h2>Accessibility</h2>
+Labels correctly linked to inputs via for attributes.
+Add aria-label or aria-describedby for optional fields (like flavour, size) to improve clarity.
+Ensure buttons (.send-btn, .quote-btn) have hover/focus states in CSS
+
 <h2>References</h2>
 Digidop, 2025. Best Typography. [Online] Available at: < 20 Best Fonts for Modern and Impactful Websites in 2026 > [Accessed 10 August 2026].
 Hook Agency, 2025. Colour Scheme for a Website. [Online] Available at: < 50 Beautiful Website Colour Schemes & CSS Hex Codes (2026) > [Accessed 10 August 2026].
