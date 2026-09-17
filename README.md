@@ -75,6 +75,34 @@ August 14: Changed README file on GitHub<br>
   <li>Services</li>
 </ul>
 
+<h1>Changes Made</h1>
+<h2>HTML Cleanup for the Homepage</h2> 
+
+Removed invalid nested <p> tags
+
+Consolidated duplicate <footer> sections into one
+
+Updated heading hierarchy (single <h1>, proper <h2>/<h3> for subsections)
+
+<h2>File Naming</h2>
+
+Renamed files with spaces (Build A Cake .html, Checkout .html) → Build-A-Cake.html, Checkout.html
+
+<h2Styling</h2>
+
+Moved repeated inline styles (color: white;, background-color: gray;, background-image) into CSS/style.css
+
+Created reusable banner classes (.banner-home, .banner-menu) for background images
+
+<h2>Accessibility</h2>
+
+Improved alt text for images (e.g., alt="Freshly baked chocolate cake")
+
+Added aria-label="Search" to search box for screen reader support
+
+<h2>Navigation</h2>
+Wrapped navigation links in <nav> with <ul> for semantic clarity
+
 <h2>References</h2>
 Digidop, 2025. Best Typography. [Online] Available at: < 20 Best Fonts for Modern and Impactful Websites in 2026 > [Accessed 10 August 2026].
 Hook Agency, 2025. Colour Scheme for a Website. [Online] Available at: < 50 Beautiful Website Colour Schemes & CSS Hex Codes (2026) > [Accessed 10 August 2026].
