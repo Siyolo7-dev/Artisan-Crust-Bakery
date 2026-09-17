@@ -239,6 +239,33 @@ Styles for .footer, .footer-container, .footer-column now live in CSS, ensuring 
 Alt text not needed for iframe, but consider adding title="CRUST Bakery Location" for screen readers.
 Add aria-label to the “GET A QUOTE” button for clarity.
 
+<h1>Review Comments on Gallery Page Refactor</h1><br>
+<h2>>General</h2
+Clear and simple structure: header, gallery images, footer, and chat box.
+Good use of semantic classes (.footer, .footer-container, .footer-column)<br>
+
+<h1>HTML → CSS Changes</h1>
+<h2>Header</h2>
+Inline background-color: grey; and color: white; should be moved into style.css.
+Suggest creating a .site-header class with background and text color rules.
+
+<h2>Banner</h2>
+No banner section like other pages. Might consider adding it. 
+Inline styles for background images should be moved into CSS.
+
+<h2>Gallery Images</h2>
+Images are hardcoded with width="400" height="400".
+Recommend using a .gallery-grid class in CSS with responsive sizing (flexbox or grid).
+Inline sizing can be removed in favor of CSS rules.
+
+<h2>Footer</h2>
+Duplicate <footer> tags present. Consolidate into one <footer> block.
+Styles for .footer, .footer-container, .footer-column should be handled in CSS.
+
+<h2>Accessibility</h2>
+Alt text is too generic (alt="food"). Replace with descriptive alt text like alt="Custom decorated cake" or alt="Shark themed cake".
+Improves SEO and accessibility.
+
 <h2>References</h2>
 Digidop, 2025. Best Typography. [Online] Available at: < 20 Best Fonts for Modern and Impactful Websites in 2026 > [Accessed 10 August 2026].
 Hook Agency, 2025. Colour Scheme for a Website. [Online] Available at: < 50 Beautiful Website Colour Schemes & CSS Hex Codes (2026) > [Accessed 10 August 2026].
