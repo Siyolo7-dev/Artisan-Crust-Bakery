@@ -83,9 +83,9 @@ August 14: Changed README file on GitHub<br>
 <h1>Changes Made</h1>
 <h2>HTML Cleanup for the Homepage</h2>
 <ul>
-  <li>Removed invalid nested <p> tags</li>
-  <li>Consolidated duplicate <footer> sections into one</li>
-  <li>Updated heading hierarchy (single <h1>, proper <h2>/<h3> for subsections)</li>
+  <li>Removed invalid nestedtags</li>
+  <li>Consolidated duplicate footer sections into one</li>
+  <li>Updated heading hierarchy sections)</li>
 </ul>
 
 <h2>File Naming</h2>
