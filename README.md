@@ -57,6 +57,8 @@ Module: WEDE5020<br>
 <h2>Changelog</h2><br>
 August 14: Changed README file on GitHub<br>
 
+<h1>Date Updated:17/10/2026</h1>
+
 <h1>Project: Website Development -Part 2<br></h1>
 
 <h2>Part Two Details</h2><br>
@@ -76,6 +78,8 @@ August 14: Changed README file on GitHub<br>
   <li>Contact Us</li>
   <li>Services</li>
 </ul>
+
+<h1>Date Updated:18/10/2026</h1>
 
 <h1>Changes Made</h1>
 <h2>HTML Cleanup for the Homepage</h2>
@@ -398,6 +402,8 @@ Styles for .footer, .footer-container, .footer-column should be handled in CSS.
 Alt text is descriptive (alt="Slice of chocolate cake with frosting and macarons").
 Ensure consistent descriptive alt text across all product images.
 Add hover/focus states for category sections and buttons in CSS.
+
+<h1>Date Updated:18/10/2026</h1>
 
 <h1>Reference List</h1>
 <ul>
