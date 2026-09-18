@@ -404,10 +404,19 @@ Add hover/focus states for category sections and buttons in CSS.
 <h1>Date Updated:18/10/2026</h1>
 
 <h1>Reference List</h1>
+<h1>Part 1</h1>
 <ul>
 <li>Digidop, 2025. Best Typography. [Online] Available at: <https://www.digidop.com/blog/the-20-best-fonts-for-modern-and-impactful-website-in-2025> [Accessed 10 August 2026].></li>
 <li>Hook Agency, 2025. Colour Scheme for a Website. [Online] Available at: <https://hookagency.com/blog/website-color-schemes-2026/> [Accessed 10 August 2026].</li>
 <li>Wix, 2026. Best Layout and Design. [Online] Available at: <https://www.wix.com/blog/website-layouts> [Accessed 10 August 2026].</li>
+</ul>
+
+<h1>Reference List</h1>
+<h1>Part 2</h1>
+<ul>
+  <li>Meyer, E. (2006) CSS: The Definitive Guide. 3rd edn. Sebastopol: O’Reilly Media.</li>
+  <li>Keith, J. (2010) HTML5 for Web Designers. New York: A Book Apart.</li>
+  <li>The Independent Institute of Education (IIE) (2026) Harvard-Anglia Style Reference Guide. Available at: https://studylib.net/doc/harvard-anglia-style-reference-guide (studylib.net in Bing) (Accessed: 18 September 2026)</li>
 </ul>
 
 
