@@ -399,12 +399,11 @@ Alt text is descriptive (alt="Slice of chocolate cake with frosting and macarons
 Ensure consistent descriptive alt text across all product images.
 Add hover/focus states for category sections and buttons in CSS.
 
-<h2>References</h2>
-Digidop, 2025. Best Typography. [Online] Available at: < 20 Best Fonts for Modern and Impactful Websites in 2026 > [Accessed 10 August 2026].
-Hook Agency, 2025. Colour Scheme for a Website. [Online] Available at: < 50 Beautiful Website Colour Schemes & CSS Hex Codes (2026) > [Accessed 10 August 2026].
-Wix, 2026. Best Layout and Design. [Online] Available at: < 10 Best Website Layout Ideas to Get You Started > [Accessed 10 August 2026]. 
-
-
-
+<h1>Reference List</h1>
+<ul>
+<li>Digidop, 2025. Best Typography. [Online] Available at: <https://www.digidop.com/blog/the-20-best-fonts-for-modern-and-impactful-website-in-2025> [Accessed 10 August 2026].></li>
+<li>Hook Agency, 2025. Colour Scheme for a Website. [Online] Available at: <https://hookagency.com/blog/website-color-schemes-2026/> [Accessed 10 August 2026].</li>
+<li>Wix, 2026. Best Layout and Design. [Online] Available at: <https://www.wix.com/blog/website-layouts> [Accessed 10 August 2026].</li>
+</ul>
 
 
