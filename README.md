@@ -416,7 +416,6 @@ Add hover/focus states for category sections and buttons in CSS.
 <ul>
   <li>Meyer, E. (2006) CSS: The Definitive Guide. 3rd edn. Sebastopol: O’Reilly Media.</li>
   <li>Keith, J. (2010) HTML5 for Web Designers. New York: A Book Apart.</li>
-  <li>The Independent Institute of Education (IIE) (2026) Harvard-Anglia Style Reference Guide. Available at: https://studylib.net/doc/harvard-anglia-style-reference-guide (studylib.net in Bing) (Accessed: 18 September 2026)</li>
 </ul>
 
 
