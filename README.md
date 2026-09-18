@@ -80,7 +80,6 @@ August 14: Changed README file on GitHub<br>
 </ul>
 
 <h1>Date Updated:18/10/2026</h1>
-
 <h1>Changes Made</h1>
 <h2>HTML Cleanup for the Homepage</h2>
 <ul>
@@ -90,7 +89,6 @@ August 14: Changed README file on GitHub<br>
 </ul>
 
 <h2>File Naming</h2>
-
 Renamed files with spaces (Build A Cake .html, Checkout .html) → Build-A-Cake.html, Checkout.html
 
 <h2>Styling</h2>
