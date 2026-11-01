@@ -756,18 +756,6 @@ script.js
   <li>Progressive Web App (PWA)</li>
 </ul>
 
-<h1>Author</h1>
-
-<h1>Siyolo Botile</h1>
-
-<h1>Front-End Web Development Project</h1>
-<h1>License</h1>
-
-<p>This project is developed for educational and portfolio purposes</p>
-
-© Crust Bakery. All Rights Reserved.
-
-
 <h1>Menu</h1>
 <ul>
   <li>Seasonal food and drink menu</li>
@@ -956,5 +944,17 @@ style.css
 ├── Footer
 └── Media Queries
 
+
+
+<h1>Author</h1>
+
+<h1>Siyolo Botile</h1>
+
+<h1>Front-End Web Development Project</h1>
+<h1>License</h1>
+
+<p>This project is developed for educational and portfolio purposes</p>
+
+© Crust Bakery. All Rights Reserved.
 
 
