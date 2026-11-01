@@ -418,4 +418,28 @@ Add hover/focus states for category sections and buttons in CSS.
   <li>Keith, J. (2010) HTML5 for Web Designers. New York: A Book Apart.</li>
 </ul>
 
+<h1>Date Updated:01/11/2026</h1>
+
+<h1>Project: Website Development -Portfolio of Evidence (POE)<br></h1>
+
+<h2>POE Details</h2><br>
+<ul>
+  <li>Added New Pages</li>
+  <li>Shop</li>
+  <li>Cart</li>
+  <li>Account</li>
+  <li>Get In Touch</li>
+</ul>
+<h2>The Old Pages</h2>
+<p>The Old Pages Were</p>
+<ul>
+  <li>Homepage</li>
+  <li>About Us</li>
+  <li>Enquiry</li>
+  <li>Contact Us</li>
+  <li>Services</li>
+  <li>Build a Cake</li>
+</ul>
+
+
 
