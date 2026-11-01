@@ -944,7 +944,118 @@ style.css
 ├── Footer
 └── Media Queries
 
+<h1>Shop Page</h1>
+<ul>
+  <li>Product search functionality</li>
+  <li>Category filters</li>
+  <li>Add-to-cart functionality</li>
+  <li>Product badges</li>
+  <li>Shopping experience</li>
+</ul>
 
+style.css
+│
+├── Variables*│
+├── Global Styles
+│
+├── Header
+│*├── Navigation
+│
+├── Hero Sections*│
+├── Product Components
+│
+├── Car*usel Components
+│
+├── Gallery Comp*nents
+│
+├── Shop Components
+│
+├── *art Components
+│
+├── Account Compo*ents
+│
+├── Contact Components
+│
+├─* Footer Components
+│
+└── Responsiv* Breakpoints
+
+<h1>JavaScript Architecture</h1>
+<p>All website inte*actions are controlled through a central JavaScript file</p>
+<h1>Initialization</h1>
+
+javascript
+document.add*ventListener("DOMContentLoaded", (* => {
+
+    initBurgerMenu();
+    initCarousel();
+    initGalleryFilters();
+    initLightbox();
+    initShopFilters();
+    initShoppingCart();
+    initAccountTabs();
+    initThemeToggle();
+    initOrderTracking();
+    initScrollTop();
+
+});
+```
+
+<h1>JavaScript Modules</h1>
+script.js
+│
+├── Navigation
+│   └── Burger Menu Toggle
+│
+├── Homepage
+│   ├── Product Carousel
+│   └── CTA Navigation
+│
+├── Gallery
+│   ├── Image Filters
+│   └── Lightbox Modal
+│
+├── Shop
+│   ├── Product Search
+│   ├── Category Filters
+│   ├── Add To Cart
+│   └── Product Management
+│
+├── Cart
+│   ├── Quantity Updates
+│   ├── Remove Product
+│   ├── Calculate Total
+│   └── Checkout Actions
+│
+├── Account
+│   ├── Tab Navigation
+│   ├── Profile Updates
+│   ├── Security Controls
+│   ├── Theme Toggle
+│   └── Order Tracking
+│
+├── Utility Functions
+│   ├── Scroll To Top
+│   ├── Dynamic Year
+│   └── Toast Notifications
+│
+└── Local Storage
+    ├── Cart Storage
+    └── User Preferences
+
+<h1>Page Summary</h1>
+
+| Page | Purpose |
+|--------|----------|
+| Homepage | Main business showcase |
+| Menu | Food & beverage menu |
+| Orders | Custom order requests |
+| Gallery | Product showcase |
+| Shop | Online shopping |
+| Cart | Basket management |
+| Account | Customer dashboard |
+| Our Story | Company history |
+| Contact | Customer communication |
 
 <h1>Author</h1>
 
