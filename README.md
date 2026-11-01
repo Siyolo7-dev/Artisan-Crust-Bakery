@@ -768,4 +768,260 @@ script.js
 © Crust Bakery. All Rights Reserved.
 
 
+<h1>Menu</h1>
+<ul>
+  <li>Seasonal food and drink menu</li>
+  <li>Product pricing display</li>
+  <li>Smoothie and beverage listings</li>
+  <li>Category-based layout</li>
+</ul>
+
+<h1>Orders</h1>
+<ul>
+  <li>Custom order request section</li>
+  <li>Bread and cake pricing access</li>
+  <li>Embedded quote request form</li>
+  <li>Order information and notice periods</li>
+</ul>
+
+<h1>Contact Page</h1>
+<ul>
+  <li>Contact form integration</li>
+  <li>Embedded Google Maps location</li>
+  <li>Business contact information</li>
+  <li>Email and phone links</li>
+</ul>
+CRUST-BAKERY/
+│
+├── Index.html
+│
+├── Assets/
+│   ├── Menu.html
+│   ├── Orders.html
+│   ├── Gallery.html
+│   ├── Shop.html
+│   ├── Cart.html
+│   ├── Account.html
+│   ├── OurStory.html
+│   └── GetInTouch.html
+│
+├── CSS/
+│   └── style.css
+│
+├── Javascript/
+│   └── script.js
+│
+├── Images/
+│   ├── Bakery Images
+│   ├── Product Images
+│   ├── Cake Images
+│   ├── Pastry Images
+│   └── Gallery Assets
+│
+└── README.md
+
+<h1>Homepage Structure</h1>
+Homepage
+│
+├── Header
+│   ├── Logo
+│   ├── Navigation
+│   ├── Cart Badge
+│   └── Burger Menu
+│
+├── Hero Banner
+│
+├── A Taste of Crust
+│
+├── Healthy Indulgence Section
+│
+├── Best Sellers Carousel
+│
+├── Freshness Banner
+│
+├── Seasonal Menu
+│
+├── Our Story
+│
+├── Crust Loves Local
+│
+├── Reviews Section
+│
+├── Follow Us Gallery
+│
+├── Contact CTA
+│
+└── Footer
+
+<h1>Gallery Page Structure</h1>
+Gallery
+│
+├── Gallery Hero
+├── Category Filters
+├── Gallery Grid
+├── Lightbox Modal
+└── Footer
+
+Based on Gallery.html. 【1-8f0be3】
+<h1>Orders Page Structure</h1>
+Orders
+│
+├── Hero Section
+├── Order Information
+├── Cake Price List Button
+├── Bread Price List Button
+├── Embedded Google Form
+└── Footer
+
+Based on Orders.html. 【2-f997a5】
+
+<h1>Account Page Structure</h1>
+Account Dashboard
+│
+├── User Profile Header
+├── Dark Mode Toggle
+├── Sidebar Navigation
+│
+├── Personal Details
+├── Order History
+├── Payment Methods
+├── Security Settings
+│
+├── Order Tracking Modal
+└── Footer
+Based on Account .html. 【3-efa1d8】
+
+<h1>Contact Page Structure</h1>
+Get In Touch
+│
+├── Google Maps Embed
+├── Contact Form
+├── Contact Information
+└── Footer
+Based on Get in Touch .html. 【4-924b5a】
+
+<h1>CSS Structure</h1>
+<p>The stylesheet uses reusable sections and component-based styling.</p>
+
+```css
+/* Reset & Base Styles */
+
+/* Typography */
+
+/* Header & Navigation */
+
+/* Buttons */
+
+/* Hero Sections */
+
+/* Product Cards */
+
+/* Carousel */
+
+/* Gallery Grid */
+
+/* Lightbox */
+
+/* Forms */
+
+/* Contact Page */
+
+/* Cart Layout */
+
+/* Account Dashboard */
+
+/* Footer */
+
+/* Scroll To Top Button */
+
+/* Mobile Navigation */
+
+/* Responsive Breakpoints */
+
+<h1>CSS Component Architecture</h1>
+style.css
+│
+├── Global Variables
+├── Layout Containers
+├── Navigation
+├── Hero Sections
+├── Buttons
+├── Product Cards
+├── Carousel
+├── Gallery
+├── Forms
+├── Tables
+├── Cart Components
+├── Dashboard Components
+├── Footer
+└── Media Queries
+
+<h1>JavaScript Structure</h1>
+
+All interactivity is handled through a centralized script file.
+
+javascript
+document.addEventListener("DOMContentLoaded", () => {
+    initBurgerMenu();
+    initCarousel();
+    initGalleryFilters();
+    initLightbox();
+    initCart();
+    initAccountTabs();
+    initThemeToggle();
+    initOrderTracker();
+    initScrollToTop();
+});
+
+<h1>JavaScript Modules</h1>
+script.js
+│
+├── Navigation
+│   └── Burger Menu Toggle
+│
+├── Homepage
+│   ├── Product Carousel
+│   └── CTA Buttons
+│
+├── Gallery
+│   ├── Filtering
+│   └── Lightbox Viewer
+│
+├── Shopping Cart
+│   ├── Add To Cart
+│   ├── Remove Item
+│   ├── Update Quantity
+│   └── Calculate Totals
+│
+├── Account Dashboard
+│   ├── Tab Navigation
+│   ├── Profile Updates
+│   ├── Security Form
+│   └── Theme Toggle
+│
+├── Order Tracking
+│   └── Tracking Modal
+│
+├── Utilities
+│   ├── Scroll To Top
+│   ├── Current Year
+│   └── Notifications
+│
+└── Local Storage
+    ├── Cart Data
+    └── User Preferences
+
+<h1>Technologies Used</h1>
+<ul>
+  <li>HTML5</li>
+  <li>CSS3</li>
+  <li>JavaScript (ES6)</li>
+  <li>Formspree Forms</li>
+  <li>Google Forms</li>
+  <li>Font Awesome Icons</li>
+  <li>Local Storage API</li>
+</ul>
+Supported by Get in Touch .html and Orders.html. 【4-924b5a】【2-f997a5】
+
+
 
