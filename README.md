@@ -485,5 +485,287 @@ Add hover/focus states for category sections and buttons in CSS.
 <h1>Status</h1>
 Homepage Functionality Complete
 
+<h1>CRUST BAKERY WEBSITE</h1>
+
+<p>A modern, responsive bakery website built with **HTML5, CSS3, and JavaScript**, designed to showcase artisan breads, pastries, custom cakes, and online ordering services for Crust Bakery</p>
+
+<h1>Overview</h1>
+
+<p>The Crust Bakery website delivers a premium digital experience that allows customers to</p>
+<ul>
+  <li>Browse bakery products and seasonal offerings</li>
+  <li>View custom cake galleries</li>
+  <li>Submit quote requests</li>
+  <li>Shop products online</li>
+  <li>Manage customer accounts</li>
+  <li>Track orders</li>
+  <li>Manage shopping cart items</li>
+  <li>Explore bakery history and local partnerships</li>
+  <li>Contact the bakery directly</li>
+</ul>
+
+<h1>Features</h1>
+<h2>Homepage</h2>
+<ul>
+  <li>Responsive navigation bar</li>
+  <li>Mobile burger menu</li>
+  <li>Hero banner</li>
+  <li>Product carousel</li>
+  <li>Best sellers section</li>
+  <li>Seasonal menu showcase</li>
+  <li>Customer testimonials</li>
+  <li>Local supplier showcase</li>
+  <li>Instagram gallery</li>
+  <li>Contact CTA</li>
+</ul>
+
+<h1>Gallery</h1>
+<ul>
+  <li>>Category filtering</li>
+  <li>Product showcase grid</li>
+  <li>Responsive image gallery</li>
+  <li>Lightbox image preview</li>
+</ul>
+
+<h1>Account Page</h1>
+<ul>
+  <li>Customer profile management</li>
+  <li>Order history tracking</li>
+  <li>Payment methods section</li>
+  <li>Password & security settings</li>
+  <li> Dark mode toggle</li>
+  <li>Order status tracking modal</li>
+</ul>
+
+<h1>Shopping Cart</h1>
+<ul>
+  <li>Dynamic cart display</li>
+  <li>Quantity management</li>
+  <li>Order summary</li>
+  <li>Checkout functionality</li>
+  <li>Cart badge counter</li>
+</ul>
+
+<h1>Global Features</h1>
+<ul>
+  <li>Responsive design</li>
+  <li>External CSS architecture</li>
+  <li>Shared JavaScript functionality</li>
+  <li>Scroll-to-top button</li>
+  <li>Reusable footer component</li>
+</ul>
+
+<h1>Project Structure</h1>
+
+```text
+CRUST-BAKERY/
+│
+├── Index.html
+│
+├── Assets/
+│   ├── Menu.html
+│   ├── Orders.html
+│   ├── Gallery.html
+│   ├── Shop.html
+│   ├── Cart.html
+│   ├── Account.html
+│   ├── OurStory.html
+│   └── GetInTouch.html
+│
+├── CSS/
+│   └── style.css
+│
+├── Javascript/
+│   └── script.js
+│
+├── Images/
+│   ├── Cake picture.jpg
+│   ├── Croissants.jpg
+│   ├── Wild Blueberry Muffins.jpeg
+│   ├── Celebration Layer Cake.jpeg
+│   ├── Brownies.jpeg
+│   └── ...
+│
+└── README.md
+```
+
+---
+
+<h1>HTML Structure</h1>
+
+<p>The website follows a reusable page layout</p>
+
+```html
+<body>
+
+  <header class="site-header">
+    Navigation
+  </header>
+
+  <main>
+    Page Content
+  </main>
+
+  <button id="scrollTopBtn">
+    ↑
+  </button>
+
+  <footer class="footer">
+    Footer Content
+  </footer>
+
+</body><br>
+<h1>Main Components</h1>
+Header
+├── Logo
+├── Navigation Menu
+├── Cart Badge
+└── Burger Menu
+
+Homepage
+├── Hero Banner
+├── Taste of Crust
+├── Best Sellers Carousel
+├── Seasonal Menu
+├── Our Story
+├── Local Suppliers
+├── Reviews
+├── Instagram Feed
+└── Contact CTA
+
+Footer
+├── Address
+├── Trading Hours
+├── Contact Details
+└── Copyright
+```
+
+---
+
+<h1>CSS Structure</h1>
+
+The stylesheet is organized into reusable sections:
+
+```css
+/* Reset & Base Styling */
+
+/* Header & Navigation */
+
+/* Buttons */
+
+/* Hero Sections */
+
+/* Product Cards */
+
+/* Carousel */
+
+/* Gallery */
+
+/* Forms */
+
+/* Cart */
+
+/* Account Dashboard */
+
+/* Footer */
+
+/* Responsive Media Queries */
+```
+
+<h1>Key CSS Modules</h1>
+
+text
+Navigation
+Product Cards
+Carousel
+Gallery Grid
+Account Dashboard
+Cart Layout
+Buttons
+Forms
+Footer
+Responsive Layouts
+<h1>JavaScript Structure</h1>
+
+The main JavaScript file manages website interactions.
+
+```javascript
+document.addEventListener("DOMContentLoaded", () => {
+
+   initializeBurgerMenu();
+   initializeCarousel();
+   initializeGalleryFilters();
+   initializeCart();
+   initializeAccountTabs();
+   initializeScrollTop();
+
+});
+```
+
+<h1>Functional Modules</h1>
+text
+script.js
+│
+├── Burger Menu Toggle
+├── Product Carousel Controls
+├── Gallery Filtering
+├── Lightbox Viewer
+├── Cart Management
+├── Cart Badge Updates
+├── Account Tab Navigation
+├── Profile Form Handling
+├── Password Validation
+├── Theme Toggle
+├── Order Tracker Modal
+├── Scroll To Top Button
+└── Dynamic Copyright Year
+```
+
+---
+
+<h1>Responsive Design</h1>
+
+<p>The website is optimized for</p>
+
+| Device | Support |
+|----------|----------|
+| Mobile Phones | ✅ |
+| Tablets | ✅ |
+| Laptops | ✅ |
+| Desktop Screens | ✅ |
+
+<h1>Technologies Used</h1>
+<ul>
+  <li>HTML5</li>
+  <li>CSS3</li>
+  <li>JavaScript (ES6)</li>
+  <li>Unsplash Images</li>
+  <li>Responsive Web Design</li>
+</ul> 
+
+<h1>Future Improvements</h1>
+<ul>
+  <li>User authentication system</li>
+  <li>Online payment gateway integration</li>
+  <li>Wishlist functionality</li>
+  <li>Product search feature</li>
+  <li>Email notifications</li>
+  <li>Customer rewards dashboard</li>
+  <li>Backend order management</li>
+  <li>Database integration</li>
+  <li>Progressive Web App (PWA)</li>
+</ul>
+
+<h1>Author</h1>
+
+<h1>Siyolo Botile</h1>
+
+<h1>Front-End Web Development Project</h1>
+<h1>License</h1>
+
+<p>This project is developed for educational and portfolio purposes</p>
+
+© Crust Bakery. All Rights Reserved.
+
 
 
