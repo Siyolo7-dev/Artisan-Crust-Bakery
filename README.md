@@ -465,19 +465,23 @@ Add hover/focus states for category sections and buttons in CSS.
 </ul>
 
 <h1>Features</h1>
-- Cart badge counter integration.
-- Shop, Gallery, Orders, Account, and Contact navigation.
-- Product cards with images, pricing, and descriptions.
-- External CSS styling support.
-- External JavaScript functionality support.
-- Dynamic copyright year placeholder.
+<ul>
+  <li>Cart badge counter integration</li>
+  <li>Shop, Gallery, Orders, Account, and Contact navigation.</li>
+  <li>Product cards with images, pricing, and descriptions.</li>
+  <li>External CSS styling support.</li>
+  <li>External JavaScript functionality support.</li>
+  <li>Dynamic copyright year placeholder.</li>
+</ul>
+
 
 <h1>Improvements</h1>
-- Strong bakery-focused branding and storytelling.
-- Multiple call-to-action buttons to increase engagement.
-- Product-focused browsing experience.
-- Mobile-friendly navigation foundation.
-
+<ul>
+  <li>Strong bakery-focused branding and storytelling.</li>
+  <li>Multiple call-to-action buttons to increase engagement.</li>
+  <li>Product-focused browsing experience.</li>
+  <li>Mobile-friendly navigation foundation.</li>
+</ul><br>
 <h1>Status</h1>
 Homepage Functionality Complete
 
