@@ -1068,4 +1068,16 @@ script.js
 
 © Crust Bakery. All Rights Reserved.
 
+<h1>Date Updated: 02/11/2026</h1>
+<h1>Portfolio of Evidence (POE)</h1>
+<h1>Reference List</h1>
+<ul>
+  <li>Duckett, J. (2014) JavaScript and JQuery: Interactive Front-End Web Development. Indianapolis, IN: Wiley.</li>
+  <li>ECMA International (2024) ECMAScript® 2024 Language Specification. Available at: https://tc39.es/ecma262/ (Accessed: 23 October 2026).</li>
+  <li>Flanagan, D. (2020) JavaScript: The Definitive Guide. 7th edn. Sebastopol, CA: O'Reilly Media.</li>
+  <li>Freeman, E. and Robson, E. (2014) Head First JavaScript Programming. Sebastopol, CA: O'Reilly Media.</li>
+  <li>MDN Web Docs (2025) JavaScript Guide. Available at: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide (Accessed: 23 October 2026).</li>
+  <li>W3Schools (2025) JavaScript Tutorial. Available at: https://www.w3schools.com/js/ (Accessed: 23 October 2026).</li> 
+</ul>
+
 
